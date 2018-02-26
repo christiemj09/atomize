@@ -1,0 +1,1 @@
+-e git+https://github.com/christiemj09/ringmaster.git@2da91bb0d7b81295e3a7b52146f29aa95a79ae61#egg=ringmaster
