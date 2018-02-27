@@ -21,3 +21,9 @@ pause
 echo "-*- Trying out triggers that handle data modifications -*-"
 
 $RUN tests/test_modification_triggers.sql
+
+pause
+
+echo "-*- Trying out a beginner example of what atomize might look like -*-"
+
+$RUN tests/test_baby_atomize.sql
