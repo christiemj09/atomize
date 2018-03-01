@@ -27,3 +27,9 @@ pause
 echo "-*- Trying out a beginner example of what atomize might look like -*-"
 
 $RUN tests/test_baby_atomize.sql
+
+pause
+
+echo "-*- Trying out a function that returns a record set without explicitly stating its columns -*-"
+
+$RUN tests/test_record_type.sql
