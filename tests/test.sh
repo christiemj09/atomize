@@ -33,3 +33,9 @@ pause
 echo "-*- Trying out a function that returns a record set without explicitly stating its columns -*-"
 
 $RUN tests/test_record_type.sql
+
+pause
+
+echo "-*- Seeing what variables inside a PL/Python trigger look like -*-"
+
+$RUN tests/test_python_trigger.sql
